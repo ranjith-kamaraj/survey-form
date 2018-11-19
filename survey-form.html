@@ -1,0 +1,100 @@
+<html>
+ <head>
+  <title >Survey-Form</title>
+   <style>
+    body{
+	  background-color:grey;
+	    font-family:verdana;
+	      color:cyan;
+	        text-align:;
+		
+	}
+	h1{
+	    background-color:white;
+		text-align:center;
+	}
+	#survey-form section input{
+	      width:200px;
+		  padding:5px 5px;
+	}
+	#other-input input{
+	     align:center;
+		 margin-left:px;
+		 
+	}
+	
+    form .form-control{ 
+				margin: 10px 0px;
+	}
+	#name-label,#number-label,#email-label{
+	        
+			display:inline-block ;
+				width: 100px;
+	}
+	#textarea{
+	      width:1100px;
+	   align:center;
+	}
+	section{
+	      margin-left:400px;
+	}
+	#submit{
+	margin-left:40px;
+	}
+	
+
+   </style>
+ </head>  
+  <body>
+   <h1 id="title">Fast Food Restaurant Survey</h1> 
+   <section>
+    <p>Give your Opinion!</p>
+     <form id="survey-form">
+	  
+	    <div class="form-control">
+	       <label id="name-label">First Name:</label>
+		     <input type="text" placeholder="Enter the Name" required >
+		</div>
+        <div class="form-control">
+	       <label id="email-label">Email:</label>
+		     <input type="email" placeholder="Enter the e-mail" required>
+		</div> 
+        <div class="form-control">
+	       <label id="number-label">Age:</label>
+		     <input type="number" min="5" max="120" placeholder="Enter the age">
+		</div>
+	  
+	  <div id="other-input">
+        <div class="form-control">
+	       <label id="dropdown">Do you Enjoy Fast Food?</label>
+		      <select>
+			    <option value="Yes">Yes</option>
+				<option value="No">No</option>
+			  </select>
+		</div>	
+        <div class="button-control">	
+		    <label id="radio" >Number of times a week you consume Fast Food.</label><br>
+			<input type="radio" name="Times " >0 times<br>
+			<input type="radio" name="Times " >1-2 times<br>
+			<input type="radio" name="Times " >3-4 times<br>
+			<input type="radio" name="Times " >5 times or more<br>
+		</div>	
+		<div class="button-control">
+		    <label id="checkbox;">Reasons for choosing to eat at fast food.</label><br>
+			<input type="checkbox" value="">Taste</input><br>
+			<input type="checkbox" value="">Cost</input><br>
+			<input type="checkbox" value="">Advertisement</input><br>
+			<input type="checkbox" value="">Eat with Friend and Family</input><br>
+			<input type="checkbox" value="">Varety of menu</input>
+        </div>
+		<div id="textarea">
+		   <p>Enter Your comments here....<p>
+		    <textarea rows="4" columns="7" placeholder="Enter your text...."></textarea>
+		</div>	
+		<div id="submit">
+		    <input type="Submit">
+		</div>
+		</section>
+  </body>
+ <head> 
+<html>
