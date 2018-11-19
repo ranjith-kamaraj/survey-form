@@ -1,2 +1,2 @@
-# starter-app
-starter app using HTML, CSS
+# survey-form
+survey form using HTML, CSS
